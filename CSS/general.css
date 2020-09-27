@@ -1,0 +1,43 @@
+html {
+  font-size: 16px;
+}
+body {
+  background: url("../images/floor-tile-reduced.png");
+  color: rgb(2, 2, 58);
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.emoji-list {
+  list-style: none;
+}
+
+.emoji-list li::before {
+  content: "👉";
+  padding-right: 0.5rem;
+}
+
+a {
+  transition: color 0.1s, background-color 0.1s;
+}
+
+a:link {
+  background-color: transparent;
+  color: rgb(224, 80, 140);
+}
+
+a:visited {
+  background-color: transparent;
+  color: rgb(82, 26, 49);
+}
+
+a:focus {
+  background-color: rgb(224, 80, 140);
+  color: white;
+}
+
+a:hover {
+  background-color: rgb(224, 80, 140);
+  color: white;
+}

@@ -1,0 +1,8 @@
+/*the main style for our quiz game*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;1,500&display=swap");
+@import "./general.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./about.css";
+@import "./stats.css";
+@import "./trivia-item.css";

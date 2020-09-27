@@ -1,0 +1,35 @@
+.game-form {
+  width: 100%;
+  max-width: 400px;
+  margin: 2rem auto;
+}
+
+.game-form__row {
+  margin-bottom: 0.75rem;
+}
+
+.game-form__label {
+  width: 100%;
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+  text-align: left;
+}
+
+.game-form__input {
+  width: 100%;
+  display: block;
+  padding: 0.25rem 0.25rem;
+  background: #ff6088;
+  color: white;
+  border: 2px solid #aa2b5c;
+  font: 1rem;
+  border-radius: 0.2rem;
+}
+
+.game-form__submit {
+  display: block;
+  margin: 0 auto;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+}

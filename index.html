@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game &mdash; Play</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script type="module" src="./js/index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <span id="logo">🤓🤔🧐</span>
+      <nav id="main-nav">
+        <a href="./index.html">Quiz</a> | <a href="./about.html">About Me</a>
+      </nav>
+    </header>
+    <!-- BEM: Block Element Modifier -->
+    <main>
+      <ul class="stats">
+        <li class="stats__stat-container">
+          <div class="stats__stat-label">Score</div>
+          <div id="score" class="stats__stat-value">0</div>
+        </li>
+        <li class="stats__stat-container">
+          <div class="stats__stat-label">Level</div>
+          <div id="level" class="stats__stat-value">1</div>
+        </li>
+        <li class="stats__stat-container">
+          <div class="stats__stat-label">Question</div>
+          <div id="question-number" class="stats__stat-value">1/10</div>
+        </li>
+      </ul>
+      <div id="trivia-container"></div>
+    </main>
+    <footer>©2020 Sarah Uhlarik</footer>
+
+    <template id="trivia-item-template">
+      <div class="trivia-item">
+        <p class="trivia-item__question"></p>
+        <ul class="trivia-item__answers">
+          <li class="trivia-item__answer">
+            <button class="trivia-item__button"></button>
+          </li>
+          <li class="trivia-item__answer">
+            <button class="trivia-item__button"></button>
+          </li>
+          <li class="trivia-item__answer">
+            <button class="trivia-item__button"></button>
+          </li>
+          <li class="trivia-item__answer">
+            <button class="trivia-item__button"></button>
+          </li>
+        </ul>
+      </div>
+    </template>
+  </body>
+</html>

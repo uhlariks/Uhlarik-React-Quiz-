@@ -1,0 +1,56 @@
+.trivia-item__question {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.trivia-item__answers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+.trivia-item__button {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 2rem 4rem;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(247, 111, 168);
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: 2px solid transparent;
+  transition: background 0.15s, tranform 0.15s, border-color 0.15s;
+}
+
+.trivia-item__button:hover {
+  background: rgb(201, 66, 122);
+  transform: rotate(1deg) scale(1.01);
+}
+
+.trivia-item__button:active {
+  background: rgb(175, 39, 96);
+  transform: rotate(2deg) scale(1.02);
+}
+
+.trivia-item__button:focus {
+  border-color: rgb(2, 2, 58);
+}
+
+.trivia-item__button.trivia-item__button--disabled {
+  background: rgb(255, 202, 224);
+}
+
+.trivia-item__button.trivia-item__button--correct {
+  background: #27bd26;
+}
+
+.trivia-item__button.trivia-item__button--incorrect {
+  background: #c02626;
+}
